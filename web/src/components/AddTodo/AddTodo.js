@@ -15,6 +15,7 @@ const CREATE_TODO = gql`
   }
 `
 const AddTodo = () => {
+  // Dummy comment
   const [createTodo] = useMutation(CREATE_TODO, {
     // An example of updating Apollo's cache. This will trigger a re-render of any
     // affected components, so we don't need to do anything but update the cache.
