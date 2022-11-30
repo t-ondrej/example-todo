@@ -20,5 +20,8 @@
   },
   "prisma": {
     "seed": "yarn rw exec seed"
+  },
+  "scripts": {
+    "storybook:build:ci": "yarn rw storybook --build && mv ./web/public/mockServiceWorker.js ./web/public/storybook/mockServiceWorker.js"
   }
 }
